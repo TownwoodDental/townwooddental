@@ -4,272 +4,311 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Townwood Dental | Dr. Waguih Kaldas</title>
-  <meta name="description" content="Townwood Dental – General dentistry, implants, oral surgery including wisdom teeth removal, crowns/bridges, veneers, dentures, clear aligners." />
+  <meta name="description" content="Townwood Dental — General dentistry, oral surgery including wisdom teeth removal, implants, dentures, crowns/bridges, veneers, minimally invasive dentistry, clear aligners." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <header class="site-header">
-    <div class="container nav">
+  <!-- Top nav -->
+  <header class="topbar">
+    <div class="wrap nav">
       <a class="brand" href="#">
-        <span class="logo" aria-hidden="true"></span>
-        <span class="brand-text">
-          <strong>Townwood Dental</strong>
-          <small>General Dentistry • Implants • Oral Surgery</small>
+        <span class="mark" aria-hidden="true"></span>
+        <span class="brandText">
+          <b>Townwood Dental</b>
+          <small>General Dentistry • Oral Surgery • Implants</small>
         </span>
       </a>
 
-      <nav class="nav-links" aria-label="Primary">
+      <nav class="links" aria-label="Primary">
         <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <a href="#faq">FAQ</a>
+        <a href="#aligners">Clear Aligners</a>
+        <a href="#dentures">Dentures</a>
         <a href="#contact">Contact</a>
       </nav>
 
-      <div class="nav-cta">
+      <div class="cta">
         <a class="btn ghost" href="tel:+000000000">Call</a>
-        <a class="btn primary" href="#book">Book Online</a>
+        <a class="btn primary" href="#contact">Book Online</a>
       </div>
     </div>
   </header>
 
-  <main>
-    <!-- HERO -->
+  <!-- HERO (similar vibe to your reference) -->
+  <main class="page">
     <section class="hero">
-      <div class="container hero-card">
-        <div class="hero-left">
-          <div class="kicker">MODERN DENTISTRY</div>
-          <h1>Modern care for a<br/>perfect smile.</h1>
-          <p class="lead">
-            Comprehensive general dentistry with advanced treatments.
-            Led by <strong>Dr. Waguih Kaldas</strong> — <strong>30+ years</strong> of clinical experience.
-          </p>
+      <div class="wrap heroFrame">
+        <div class="heroCard">
+          <div class="heroLeft">
+            <div class="chip">MODERN DENTAL CARE</div>
 
-          <div class="hero-actions" id="book">
-            <a class="btn dark" href="#contact">Book an appointment</a>
-            <a class="btn light" href="#services">Explore services</a>
+            <h1>Modern care for a<br/>perfect smile.</h1>
+
+            <p class="sub">
+              Townwood Dental delivers calm, high-quality general dentistry with advanced treatment options.
+              Led by <strong>Dr. Waguih Kaldas</strong> — <strong>30+ years</strong> of clinical experience.
+            </p>
+
+            <div class="heroBtns">
+              <a class="btn dark" href="#contact">Book an appointment</a>
+              <a class="btn light" href="#services">Explore services</a>
+            </div>
+
+            <div class="pills" id="services">
+              <span>Wisdom Teeth</span>
+              <span>Implants</span>
+              <span>Crowns & Bridges</span>
+              <span>Veneers</span>
+              <span>Minimally Invasive</span>
+              <span>Dentures</span>
+              <span>Clear Aligners</span>
+            </div>
+
+            <div class="fine">
+              Comfort-first approach • Clear treatment plans • Emergency slots when available
+            </div>
+
+            <!-- “floating” implant like the reference -->
+            <div class="implantDock" aria-hidden="true">
+              <div class="implant3d">
+                <div class="implantGlow"></div>
+                <div class="implantHead"></div>
+                <div class="implantNeck"></div>
+                <div class="implantBody"></div>
+                <div class="implantThreads"></div>
+                <div class="implantShadow"></div>
+              </div>
+            </div>
           </div>
 
-          <div class="pills">
-            <span>Wisdom Teeth</span>
-            <span>Implants</span>
-            <span>Crowns & Bridges</span>
-            <span>Veneers</span>
-            <span>Dentures</span>
-            <span>Clear Aligners</span>
-            <span>Minimally Invasive</span>
-          </div>
+          <aside class="heroRight">
+            <div class="rightTop">
+              <div>
+                <h3>Care that feels calm, precise, and personal.</h3>
+                <p>
+                  From routine care to oral surgery and implant restorations, we focus on comfort,
+                  clarity, and long-term oral health.
+                </p>
+              </div>
 
-          <div class="fineprint">Same-day emergency appointments when available • Clear treatment plans • Calm, gentle care</div>
+              <div class="badge">
+                30+ years
+                <span>Clinical experience</span>
+              </div>
+            </div>
+
+            <div class="miniGrid">
+              <div class="mini">
+                <div class="avatar" aria-hidden="true"></div>
+                <div>
+                  <b>Dr. Waguih Kaldas</b>
+                  <small>Principal Dentist</small>
+                </div>
+              </div>
+
+              <div class="mini">
+                <div class="avatar a2" aria-hidden="true"></div>
+                <div>
+                  <b>Advanced Services</b>
+                  <small>Implants • Oral Surgery • Aesthetic Dentistry</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="note">
+              <b>New patient?</b> We’ll start with a thorough assessment and a plan that suits your goals.
+            </div>
+          </aside>
         </div>
-
-        <aside class="hero-right">
-          <div class="right-top">
-            <div>
-              <h3>Calm, precise, personal dentistry.</h3>
-              <p>
-                From routine check-ups to oral surgery and implant restorations,
-                we focus on comfort, clarity, and long-term oral health.
-              </p>
-            </div>
-            <div class="badge">
-              30+ years
-              <span>Clinical experience</span>
-            </div>
-          </div>
-
-          <div class="cards">
-            <div class="mini">
-              <div class="avatar" aria-hidden="true">
-                <!-- replace with your image later -->
-                <img src="https://images.unsplash.com/photo-1580281657527-47f249e8f3f5?auto=format&fit=crop&w=300&q=80" alt="">
-              </div>
-              <div>
-                <b>Dr. Waguih Kaldas</b>
-                <small>Principal Dentist</small>
-              </div>
-            </div>
-
-            <div class="mini">
-              <div class="avatar" aria-hidden="true">
-                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=300&q=80" alt="">
-              </div>
-              <div>
-                <b>Advanced Treatments</b>
-                <small>Oral surgery • Implants • Aesthetic dentistry</small>
-              </div>
-            </div>
-          </div>
-
-          <div class="note">
-            Tip: Replace images with your own clinic photos for best trust + conversion.
-          </div>
-        </aside>
       </div>
     </section>
 
-    <!-- SERVICES -->
-    <section class="section" id="services">
-      <div class="container">
-        <div class="section-head">
-          <h2>Services</h2>
-          <p>Everything you need for a healthy, confident smile — from prevention to complex restorations.</p>
+    <!-- SERVICE GRID (premium cards) -->
+    <section class="section">
+      <div class="wrap">
+        <div class="head">
+          <h2>Our Services</h2>
+          <p>Everything general dentistry — plus advanced treatments delivered with clarity and care.</p>
         </div>
 
         <div class="grid">
-          <article class="service">
+          <article class="card">
             <h3>General Dentistry</h3>
-            <p>Exams, cleans, fillings, gum health, prevention, and long-term care.</p>
+            <p>Exams, cleans, fillings, gum health, prevention and long-term maintenance.</p>
           </article>
-          <article class="service">
+          <article class="card">
             <h3>Oral Surgery</h3>
             <p>Including wisdom teeth removal and straightforward surgical care.</p>
           </article>
-          <article class="service">
+          <article class="card accent">
             <h3>Dental Implants</h3>
-            <p>Replace missing teeth with strong, natural-looking implant solutions.</p>
+            <p>Strong, natural-looking solutions to replace missing teeth.</p>
           </article>
-          <article class="service">
+          <article class="card">
             <h3>Crowns & Bridges</h3>
-            <p>Restore strength and aesthetics with durable, precise restorations.</p>
+            <p>Restore strength and aesthetics with precise, durable restorations.</p>
           </article>
-          <article class="service">
+          <article class="card">
             <h3>Veneers</h3>
-            <p>Smile enhancement with conservative planning and natural results.</p>
+            <p>Smile enhancement with careful, conservative planning.</p>
           </article>
-          <article class="service">
-            <h3>Dentures</h3>
-            <p>Comfortable, functional denture options with careful fit and follow-up.</p>
-          </article>
-          <article class="service">
-            <h3>Clear Aligners</h3>
-            <p>Discreet straightening with modern aligner planning and monitoring.</p>
-          </article>
-          <article class="service">
-            <h3>Minimally Invasive Dentistry</h3>
-            <p>Preserving tooth structure wherever possible with modern techniques.</p>
+          <article class="card">
+            <h3>Minimally Invasive</h3>
+            <p>Preserving healthy tooth structure wherever possible.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- ABOUT -->
-    <section class="section alt" id="about">
-      <div class="container two-col">
+    <!-- CLEAR ALIGNERS FEATURE (requested) -->
+    <section class="section alt" id="aligners">
+      <div class="wrap two">
         <div>
-          <h2>About Townwood Dental</h2>
-          <p>
-            We’re focused on high-quality general dentistry with clear communication,
-            modern materials, and a calm patient experience.
+          <div class="eyebrow">CLEAR ALIGNERS</div>
+          <h2>Straighten your teeth — discreetly.</h2>
+          <p class="muted">
+            Clear aligners are a comfortable, low-visibility option for mild to moderate alignment concerns.
+            We’ll assess suitability, plan your treatment, and monitor progress.
           </p>
+
           <ul class="ticks">
-            <li>30+ years of clinical experience</li>
-            <li>Evidence-based treatment planning</li>
-            <li>Transparent options and pricing</li>
-            <li>Comfort-first approach</li>
+            <li>Discreet appearance</li>
+            <li>Removable for eating and cleaning</li>
+            <li>Planned and supervised by your dentist</li>
           </ul>
+
+          <div class="rowBtns">
+            <a class="btn primary" href="#contact">Ask about aligners</a>
+            <a class="btn ghost" href="#contact">Book a consult</a>
+          </div>
         </div>
 
-        <div class="panel">
-          <h3>New patient?</h3>
-          <p>We’ll start with a thorough assessment and a plan that fits your goals and budget.</p>
-          <div class="panel-actions">
-            <a class="btn primary" href="#contact">Book your visit</a>
-            <a class="btn ghost" href="#faq">See FAQs</a>
+        <div class="featureVisual">
+          <div class="visualCard">
+            <div class="visualTop">
+              <span class="dot"></span><span class="dot d2"></span><span class="dot d3"></span>
+              <span class="label">Aligners Preview</span>
+            </div>
+            <div class="aligner3d" aria-hidden="true">
+              <div class="tray t1"></div>
+              <div class="tray t2"></div>
+              <div class="tray t3"></div>
+              <div class="spark s1"></div>
+              <div class="spark s2"></div>
+            </div>
+            <div class="visualFoot">
+              <b>Comfort-first planning</b>
+              <small>Clear steps • predictable progress</small>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- FAQ -->
-    <section class="section" id="faq">
-      <div class="container">
-        <div class="section-head">
-          <h2>Frequently asked questions</h2>
-          <p>Quick answers for appointments, emergencies, and treatments.</p>
+    <!-- DENTURES FEATURE (requested) -->
+    <section class="section" id="dentures">
+      <div class="wrap two">
+        <div class="featureVisual">
+          <div class="visualCard dent">
+            <div class="visualTop">
+              <span class="dot"></span><span class="dot d2"></span><span class="dot d3"></span>
+              <span class="label">Dentures</span>
+            </div>
+
+            <div class="denture3d" aria-hidden="true">
+              <div class="gum"></div>
+              <div class="teeth"></div>
+              <div class="shine"></div>
+            </div>
+
+            <div class="visualFoot">
+              <b>Comfortable fit</b>
+              <small>Careful adjustments • follow-up support</small>
+            </div>
+          </div>
         </div>
 
-        <div class="faq">
-          <details>
-            <summary>Do you offer emergency appointments?</summary>
-            <p>Yes — when available. Call and we’ll try to fit you in as soon as possible.</p>
-          </details>
-          <details>
-            <summary>Do you do wisdom teeth removal?</summary>
-            <p>Yes. We provide oral surgery including wisdom teeth removal where appropriate.</p>
-          </details>
-          <details>
-            <summary>Do you offer clear aligners?</summary>
-            <p>Yes — we can assess suitability and guide you through a clear aligner plan.</p>
-          </details>
-          <details>
-            <summary>How do I book?</summary>
-            <p>Use the booking button or contact us via phone/email and we’ll schedule your visit.</p>
-          </details>
+        <div>
+          <div class="eyebrow">DENTURES</div>
+          <h2>Restoring comfort and confidence.</h2>
+          <p class="muted">
+            We provide denture options designed for comfort, function, and aesthetics — with careful fitting
+            and support over time.
+          </p>
+
+          <ul class="ticks">
+            <li>Full or partial options</li>
+            <li>Function-focused bite and fit</li>
+            <li>Ongoing adjustments and care</li>
+          </ul>
+
+          <div class="rowBtns">
+            <a class="btn primary" href="#contact">Discuss dentures</a>
+            <a class="btn ghost" href="#services">See services</a>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- CONTACT -->
     <section class="section alt" id="contact">
-      <div class="container two-col">
-        <div>
-          <h2>Contact</h2>
-          <p class="muted">Add your details below (phone, address, booking link). This section is ready for it.</p>
+      <div class="wrap contact">
+        <div class="contactLeft">
+          <h2>Contact Townwood Dental</h2>
+          <p class="muted">Replace the placeholders with your real phone, email, and address.</p>
 
-          <div class="contact-cards">
-            <div class="contact-card">
+          <div class="contactCards">
+            <div class="cCard">
               <b>Phone</b>
               <a href="tel:+000000000">+00 0000 0000</a>
               <small>Tap to call</small>
             </div>
-            <div class="contact-card">
+            <div class="cCard">
               <b>Email</b>
               <a href="mailto:hello@townwooddental.com">hello@townwooddental.com</a>
               <small>Tap to email</small>
             </div>
-            <div class="contact-card">
+            <div class="cCard">
               <b>Address</b>
-              <span>Town / Suburb, City</span>
-              <small>Add full address</small>
+              <span>Town/Suburb, City</span>
+              <small>Add your address</small>
             </div>
           </div>
         </div>
 
         <form class="form" onsubmit="return false;">
           <h3>Request an appointment</h3>
-          <label>
-            Name
+          <label>Name
             <input type="text" placeholder="Your name" />
           </label>
-          <label>
-            Phone or email
+          <label>Phone or email
             <input type="text" placeholder="How should we reach you?" />
           </label>
-          <label>
-            Message
+          <label>Message
             <textarea rows="4" placeholder="Preferred day/time, concern, etc."></textarea>
           </label>
-          <button class="btn primary full" type="button" onclick="alert('Connect this form to a service like Formspree or Netlify Forms.')">
+          <button class="btn primary full" type="button"
+            onclick="alert('To make this form send emails for free, I can wire it to Formspree/Netlify Forms in 2 minutes.')">
             Send request
           </button>
-          <small class="muted">To make this form actually send emails, I’ll help you connect it for free.</small>
+          <small class="muted">Free form wiring available (no paid builder needed).</small>
         </form>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="container foot">
+    <div class="wrap foot">
       <div>
-        <strong>Townwood Dental</strong>
+        <b>Townwood Dental</b>
         <div class="muted">© <span id="year"></span> • All rights reserved</div>
       </div>
-      <div class="muted">General dentistry • Implants • Oral surgery • Veneers • Clear aligners</div>
+      <div class="muted">General dentistry • Implants • Oral surgery • Veneers • Clear aligners • Dentures</div>
     </div>
   </footer>
 
